@@ -47,7 +47,7 @@
                                 <tr>
                                     <th><?php echo $row['Id_Posicion']?></th>
                                     <th><?php echo $row['Nombre_Posicion']?></th>
-                                    <th><a href="actualizar.php?id=<?php echo $row['Id_Posicion'] ?>" class="btn btn-info">Actualizar</a></th>
+                                    <th><a href="actualizar.php?id=<?php echo $row['Id_Posicion'] ?>" class="btn btn-info">Editar</a></th>
                                     <th><a href="eliminar.php?id=<?php echo $row['Id_Posicion'] ?>" class="btn btn-danger">Eliminar</a></th>
                                 </tr>
                             <?php
